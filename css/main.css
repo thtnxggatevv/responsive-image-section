@@ -59,3 +59,46 @@ a.hover {
 
   html {
     font-size: 110%;
+    line-height: 1.5;
+   }
+
+   .img-flex {
+     padding-top: 2em;
+     padding-right: 0;
+     margin-right: 0;
+   }
+
+   div {
+     max-width: 48%;
+   }
+
+ }
+
+ @media only screen and (min-width: 90em) {
+
+   html {
+     font-size: 130%;
+     line-height: 1.5;
+   }
+
+   .img-flex {
+     max-width: 40%;
+   }
+
+   div {
+     max-width: 40%;
+   }
+
+   section {
+     text-align: center;
+   }
+
+   a {
+     text-align: left;
+   }
+
+ @viewport
+ @-moz-viewport;
+ @-ms-viewport;
+ @-o-viewport;
+ @-webkit-viewport {}
